@@ -15,7 +15,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_19_201204) do
     t.integer "size"
     t.string "color"
     t.integer "stock"
-    t.string "type"
+    t.string "couch_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "owner_id", null: false

@@ -4,7 +4,7 @@ class CreateCouches < ActiveRecord::Migration[7.2]
       t.integer :size
       t.string :color
       t.integer :stock
-      t.string :type
+      t.string :couch_type
 
       t.timestamps
     end
