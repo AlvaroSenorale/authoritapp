@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "couches", to: "couches#index"
+  get "couches/:id", to: "couches#show"
 end
